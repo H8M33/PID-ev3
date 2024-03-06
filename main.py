@@ -38,6 +38,7 @@ to_del = []
 per = 1
 sum_int = 0
 while True:
+    err = set_point - sensor.reflection()
     sum_int += err
     to_del.append(err)
     i +=1
